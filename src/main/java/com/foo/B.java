@@ -1,6 +1,6 @@
 package com.foo;
 
-class B {
+public class B {
     public A getA() {
         return new A("a");
     }
