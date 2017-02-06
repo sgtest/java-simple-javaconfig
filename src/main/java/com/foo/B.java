@@ -1,11 +1,18 @@
 package com.foo;
 
 public class B {
+
+    private A a;
+
+    public B() {
+        this.a = new A("a");
+    }
+
     public A getA() {
-        return new A("a");
+        return a;
     }
 
     public void doSomethingWithA() {
-        getA().doSomething();
+        a.doSomething();
     }
 }

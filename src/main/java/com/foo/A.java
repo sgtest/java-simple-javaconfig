@@ -10,5 +10,8 @@ public class A {
         this.x = x;
     }
 
+    /**
+     * Do something!
+     */
     public void doSomething() {}
 }
