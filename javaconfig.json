@@ -1,0 +1,13 @@
+{
+    "projects": {
+        "/": {
+            "artifactId": "myId",
+            "groupId": "myGroup",
+            "version": "1.0.0",
+            "sourceDirectories": ["src/main/java"],
+            "testSourceDirectories": [],
+            "jars": [],
+            "compilerOptions": []
+        }
+    }
+}
